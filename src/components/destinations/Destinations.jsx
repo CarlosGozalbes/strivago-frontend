@@ -26,7 +26,17 @@ function Destinations() {
                 alt="Card image"
               />
               <Card.ImgOverlay>
-                <Card.Title>Cinque Terre</Card.Title>
+                <Card.Title
+                  style={{
+                    backgroundColor: "white",
+                    width: "fit-content",
+                    color: "black",
+                    padding: "0.5rem",
+                    borderRadius: "10px",
+                  }}
+                >
+                  Cinque Terre
+                </Card.Title>
               </Card.ImgOverlay>
             </Card>
 
@@ -42,7 +52,17 @@ function Destinations() {
                 alt="Card image"
               />
               <Card.ImgOverlay>
-                <Card.Title>Granada</Card.Title>
+                <Card.Title
+                  style={{
+                    backgroundColor: "white",
+                    width: "fit-content",
+                    color: "black",
+                    padding: "0.5rem",
+                    borderRadius: "10px",
+                  }}
+                >
+                  Granada
+                </Card.Title>
               </Card.ImgOverlay>
             </Card>
           </Col>
@@ -55,7 +75,17 @@ function Destinations() {
                 alt="Card image"
               />
               <Card.ImgOverlay>
-                <Card.Title>Estambul</Card.Title>
+                <Card.Title
+                  style={{
+                    backgroundColor: "white",
+                    width: "fit-content",
+                    color: "black",
+                    padding: "0.5rem",
+                    borderRadius: "10px",
+                  }}
+                >
+                  Estambul
+                </Card.Title>
               </Card.ImgOverlay>
             </Card>
             {/* <Image src={estambul} className="suggesteddestinations"></Image> */}
@@ -72,7 +102,17 @@ function Destinations() {
                 alt="Card image"
               />
               <Card.ImgOverlay>
-                <Card.Title>Oporto</Card.Title>
+                <Card.Title
+                  style={{
+                    backgroundColor: "white",
+                    width: "fit-content",
+                    color: "black",
+                    padding: "0.5rem",
+                    borderRadius: "10px",
+                  }}
+                >
+                  Oporto
+                </Card.Title>
               </Card.ImgOverlay>
             </Card>
             {/* <Image src={estambul} className="suggesteddestinations"></Image> */}
