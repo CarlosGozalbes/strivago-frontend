@@ -1,0 +1,27 @@
+.first-navMenu{
+    margin-left: 20%;
+}
+
+.navbar {
+    border-bottom: 1px solid rgb(185, 185, 185);
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+}
+
+.navbar-manu-option:hover{
+    border-bottom: 2px solid blue;
+    background-color: rgb(235, 235, 235);
+}
+
+.navbar-manu-option{
+    border-bottom: 2px solid transparent;
+    color: black;
+}
+
+.text-decoration-none{
+    color:black
+}
+
+.text-decoration-none:hover{
+    text-decoration: none !important
+}

@@ -1,0 +1,76 @@
+.search-menu {
+    height: 20%;
+    background-color: rgb(226, 226, 226);
+    padding-left: 20%;
+    padding-right: auto;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+.hotelhouseoptions {
+    background-color: rgb(226, 226, 226);
+}
+
+
+.searchDealsbutton{
+    background-color: #0088BC;
+    color:white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    border: none;
+    border-radius: 7px;
+}
+
+.input-search-container{
+    display: flex;
+    display: inline-block;
+  align-items: center;
+  border-radius: 0px 10px 10px 10px;
+  height: fit-content;
+  width: fit-content;
+  /* border: 1px solid rgb(82, 82, 82); */
+  background-color: rgb(255, 255, 255) !important;
+  padding:0.7rem 1rem 0.7rem 1rem;
+  position: relative;
+  
+}
+
+
+.input-text{
+    border: none;
+    padding-right: 1rem;
+}
+
+.input-date {
+    border:none;
+    border-left: solid 1px grey;
+    padding-left: 1rem;
+    padding-right:1rem
+}
+
+.roomsss{
+    width: fit-content;
+}
+.link100more{
+    color:rgb(190, 185, 185);
+    font-weight:100
+}
+.logoTitle{
+    font-weight:700;
+    font-size: 1.2rem;
+}
+
+.hehehehhehehehhe{
+    border-right: 1px solid rgb(204, 204, 204);
+}
+.optionssssss{
+    background-color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.text-black{
+    color: black;
+}

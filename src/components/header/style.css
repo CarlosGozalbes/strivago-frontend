@@ -1,0 +1,19 @@
+.header-title{
+    font-weight: 700;
+    font-size: 1.40rem;
+    margin-bottom: 0.5rem;
+}
+
+.headers-info{
+    border-left: 1px solid rgb(228, 228, 228);
+    padding-left: 1rem;
+}
+
+.header-catch{
+    margin-bottom: 0;
+}
+
+.header-container{
+    padding-top:4rem;
+    padding-bottom: 3rem;
+}
