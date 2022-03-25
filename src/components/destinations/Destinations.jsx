@@ -15,11 +15,16 @@ function Destinations() {
       <br />
       <Container fluid className="destinationscontainer w-75">
         <h3 className="mb-4">Looking for inspiration?</h3>
-        <h5>We got you covered!</h5>
+        <h5 className="mb-4">We got you covered!</h5>
         <Row fluid>
           <Col md={3}>
             <Card className="bg-dark text-white">
-              <Card.Img src={ciqueterre} alt="Card image" />
+              <Card.Img
+                src={ciqueterre}
+                height={300}
+                style={{ objectFit: "cover" }}
+                alt="Card image"
+              />
               <Card.ImgOverlay>
                 <Card.Title>Cinque Terre</Card.Title>
               </Card.ImgOverlay>
@@ -30,7 +35,12 @@ function Destinations() {
           <Col md={3}>
             {/* <Image src={estambul} height={200} className="suggesteddestinations"></Image> */}
             <Card className="bg-dark text-white">
-              <Card.Img src={granada} alt="Card image" />
+              <Card.Img
+                src={granada}
+                height={300}
+                style={{ objectFit: "cover" }}
+                alt="Card image"
+              />
               <Card.ImgOverlay>
                 <Card.Title>Granada</Card.Title>
               </Card.ImgOverlay>
@@ -38,7 +48,12 @@ function Destinations() {
           </Col>
           <Col md={3}>
             <Card className="bg-dark text-white">
-              <Card.Img src={estambul} alt="Card image" />
+              <Card.Img
+                src={estambul}
+                height={300}
+                style={{ objectFit: "cover" }}
+                alt="Card image"
+              />
               <Card.ImgOverlay>
                 <Card.Title>Estambul</Card.Title>
               </Card.ImgOverlay>
@@ -47,7 +62,15 @@ function Destinations() {
           </Col>
           <Col md={3}>
             <Card className="bg-dark text-white">
-              <Card.Img src={oporto} alt="Card image" />
+              <Card.Img
+                src={oporto}
+                height={300}
+                style={{ objectFit: "cover" }}
+                /* style={
+                  {object-fit: 'cover',}
+                } */
+                alt="Card image"
+              />
               <Card.ImgOverlay>
                 <Card.Title>Oporto</Card.Title>
               </Card.ImgOverlay>
@@ -56,6 +79,7 @@ function Destinations() {
           </Col>
         </Row>
       </Container>
+      <br /> <br />
     </>
   );
 }
